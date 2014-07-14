@@ -1,0 +1,298 @@
+/******************** GENERAL ********************/
+body { 
+	padding: 50px 0 20px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about, .latest-work, .contact, .services {
+	letter-spacing: 0.05em;
+}
+
+.glyphicon {
+	color: #2d3339;
+}
+
+p {
+	margin-top: 25px;
+}
+
+
+/******************** BUTTONS ********************/
+.btn-lg {
+	font-size: 24px;
+	background-color: #E9594A;
+	border: 1px solid #fff;
+	padding: 10px 15px;
+}
+
+.btn-lg:hover {
+	border: 1px solid #fff;
+	background-color: #DB5C51;
+}
+
+
+/******************** NAVIGATION ********************/
+.navbar-inverse {
+	background: #2d3339;
+	padding: 17px 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #f6f9fa;
+	text-align: center;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 6px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #BDBDBD;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background: #2d3339;
+	color: #BDBDBD;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+	color: #f6f9fa;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+	margin-top: 5px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background: #E6E6E6;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover {
+	background: #2d3339;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background: #2d3339;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background: #2d3339;
+}
+
+
+/******************** JUMBOTRON ********************/
+.jumbotron {
+	background: url(../img/wood1.jpg);
+	background-repeat: inherit;
+	background-size: cover;
+	border-bottom: 1px solid #D8D8D8;
+	text-align: center;
+	padding: 102px 0 105px 0;
+	margin-top: 20px;
+}
+
+.jumbotron h1 {
+	color: #f6f9fa;
+}
+
+.jumbotron p {
+	margin-top: 20px 0;
+	padding: 15px 5px;
+	color: rgba(242,242,242,0.8);
+}
+
+
+/******************** ABOUT ********************/
+#about {
+	background-color: #f6f9fa;
+	border-bottom: 1px solid #D8D8D8;
+	text-align: center;
+	padding: 40px 0 80px 0;
+	margin-top: -30px;
+}
+
+#about h1 {
+	color: #E9594A;
+	text-transform: uppercase;
+	margin-top: 50px;
+	padding-bottom: 60px;
+
+}
+
+#about p.line {
+	border-bottom: 2px solid #E9594A;
+	width: 80px;
+	margin: -70px auto 0 auto;
+}
+
+#about h4 {
+	padding: 10px 35px;
+	line-height: 1.5em;
+}
+
+.about-icons {
+	font-size: 45px;
+	margin-top: 60px;
+}
+
+
+/******************** SERVICES ********************/
+#services {
+	background-color: #F5F5F5;
+	text-align: center;
+	padding: 40px 0 80px 0;
+	border-bottom: 1px solid #D8D8D8;	
+}
+
+#services h1 {
+	color: #E9594A;
+	text-transform: uppercase;
+	margin-top: 50px;	
+	padding-bottom: 60px;
+}
+
+#services h2 {
+	margin-top: 50px;
+}
+
+#services h4 {
+	padding: 10px 35px;
+	line-height: 1.5em;
+}
+
+#services p.line {
+	border-bottom: 2px solid #E9594A;
+	width: 80px;
+	margin: -70px auto 0 auto;
+}
+
+
+/******************** WORK ********************/
+#work {
+	background-color: #f6f9fa;
+	text-align: center;
+	padding: 40px 0 80px 0;
+}
+
+#work h1 {
+	color: #E9594A;
+	text-transform: uppercase;
+	margin-top: 50px;
+	padding-bottom: 60px;	
+}
+
+#work p.line {
+	border-bottom: 2px solid #E9594A;
+	width: 80px;
+	margin: -70px auto 0 auto;
+}
+
+.img-responsive {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;	
+	border-bottom-right-radius: 10px;	
+	
+	margin: 15px auto;
+	padding: 10px 10px;
+	box-shadow: 0 15px 25px -18px;
+}
+
+.latest-images {
+	margin-top: 50px;
+}
+
+
+/******************** CONTACT ********************/
+#contact {
+	background-color: #F5F5F5;
+	border-top: 1px solid #D8D8D8;
+	text-align: center;
+	padding: 29px 0 80px 0;
+}
+
+#contact h1 {
+	color: #E9594A;
+	text-transform: uppercase;
+	margin-top: 60px;
+	padding-bottom: 60px;	
+}
+
+#contact p.line {
+	border-bottom: 2px solid #E9594A;
+	width: 80px;
+	margin: -70px auto 0 auto;
+}
+
+#contact h3 {
+	line-height: 1.4em;
+	margin-top: 45px;
+}
+
+#contact h4 {
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+#contact span.glyphicon {
+	font-size: 25px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #E9594A;
+}
+
+#contact .email p a {
+	color: #333;
+}
+
+#contact .email p a:hover {
+	color: #E9594A;
+}
+
+.email, .phone, .location {
+	padding: 15px 0;
+	margin-top: 55px;
+}
+
+#contact-button {
+	margin-top: 40px;
+}
+
+#contact-button a {
+	color: #f6f9fa;
+}
+
+
+/******************** FOOTER ********************/
+footer {
+	padding: 50px;
+	background-color: #E9594A;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+
+/******************** RESPONSIVE ********************/
+@media(min-width:768px) {
+	.navbar-inverse .navbar-nav>li>a {
+		font-size: 14px;
+	}
+
+	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+		font-size: 15px;
+		margin-top: 7px;
+	}
+}
+
+@media(min-width:992px) {
+	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+		font-size: 17px;
+		margin-top: 4px;
+	}
+}
