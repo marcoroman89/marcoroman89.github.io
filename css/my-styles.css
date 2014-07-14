@@ -13,7 +13,7 @@ body {
 }
 
 p {
-	margin-top: 25px;
+	margin-top: 20px;
 }
 
 
@@ -61,6 +61,10 @@ p {
 	font-size: 16px;
 }
 
+.navbar-inverse .navbar-toggle {
+	border-color: #2d3339;
+}
+
 .navbar-inverse .navbar-brand {
 	margin-top: 5px;
 }
@@ -89,8 +93,8 @@ p {
 	background-size: cover;
 	border-bottom: 1px solid #D8D8D8;
 	text-align: center;
-	padding: 102px 0 105px 0;
-	margin-top: 20px;
+	padding: 122px 0 93px 0;
+
 }
 
 .jumbotron h1 {
@@ -168,6 +172,14 @@ p {
 	margin: -70px auto 0 auto;
 }
 
+.img-circle {
+	width: 140px;
+	height: 140px;
+	box-shadow: 0 15px 25px -18px;
+	margin-top: 50px;
+	margin-bottom: ;
+
+}
 
 /******************** WORK ********************/
 #work {
@@ -279,10 +291,10 @@ footer {
 
 
 /******************** RESPONSIVE ********************/
-@media(min-width:320px) {
+@media(min-width : 320px) {
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-		font-size: 14px;
-		margin: none;
+		font-size: 13px;
+		margin-top: 2px;	
 }
 
 @media(min-width:768px) {
@@ -292,13 +304,13 @@ footer {
 
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 		font-size: 15px;
-		margin-top: 7px;
+		margin-top: 6px;
 	}
 }
 
 @media(min-width:992px) {
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 		font-size: 17px;
-		margin-top: 4px;
+		margin-top: 5px;
 	}
 }
