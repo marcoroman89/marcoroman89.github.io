@@ -282,7 +282,7 @@ footer {
 @media(min-width : 320px) {
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 		font-size: 14px;
-		margin-bottom: 4px;	
+		margin-bottom: 10px;	
 }
 
 @media(min-width:768px) {
