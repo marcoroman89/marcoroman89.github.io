@@ -302,6 +302,11 @@ footer {
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 		font-size: 13px;
 		margin-top: 2px;
+	}
+
+	span.fa {
+	color: #F6F9FA;
+	margin-top: -6px;
 	}	
 }
 
