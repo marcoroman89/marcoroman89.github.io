@@ -63,6 +63,8 @@ p {
 
 .navbar-inverse .navbar-toggle {
 	border-color: #36454F;
+	margin-top: -2px;
+	color: #F6F9FA;
 }
 
 .navbar-inverse .navbar-brand {
@@ -83,11 +85,6 @@ p {
 
 .navbar-inverse .navbar-toggle:hover {
 	background: #36454F;
-}
-
-span.fa {
-	color: #F6F9FA;
-	margin-top: -10px;
 }
 
 
@@ -303,11 +300,6 @@ footer {
 		font-size: 13px;
 		margin-top: 2px;
 	}
-
-	span.fa {
-	color: #F6F9FA;
-	margin-top: -2px;
-	}	
 }
 
 @media(min-width:768px) {
