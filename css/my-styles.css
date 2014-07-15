@@ -292,7 +292,7 @@ footer {
 
 
 /******************** RESPONSIVE ********************/
-@media(min-width : 319px) {
+@media(min-width : 321px) {
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
 		font-size: 16px;
 		margin-top: 2px;
