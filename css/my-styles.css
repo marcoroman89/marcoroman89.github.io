@@ -21,12 +21,12 @@ p {
 .btn-lg {
 	font-size: 24px;
 	background-color: #E9594A;
-	border: 1px solid #fff;
+	border: 2px solid #F6F9FA;
 	padding: 10px 15px;
 }
 
 .btn-lg:hover {
-	border: 1px solid #fff;
+	border: 2px solid #F6F9FA;
 	background-color: #DB5C51;
 }
 
@@ -51,7 +51,7 @@ p {
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
 	background: #2d3339;
-	color: #f6f9fa;
+	color: #F6F9FA;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
@@ -110,7 +110,7 @@ p {
 
 /******************** ABOUT ********************/
 #about {
-	background-color: #f6f9fa;
+	background-color: #F6F9FA;
 	border-bottom: 1px solid #D8D8D8;
 	text-align: center;
 	padding: 40px 0 68px 0;
@@ -144,7 +144,7 @@ p {
 
 /******************** SERVICES ********************/
 #services {
-	background-color: #F5F5F5;
+	background-color: #F6F9FA;
 	border-bottom: 1px solid #D8D8D8;	
 	text-align: center;
 	padding: 40px 0 68px 0;
@@ -183,7 +183,7 @@ p {
 
 /******************** WORK ********************/
 #work {
-	background-color: #F5F5F5;
+	background-color: #F6F9FA;
 	text-align: center;
 	padding: 40px 0 71px 0;
 }
@@ -202,11 +202,6 @@ p {
 }
 
 .img-responsive {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;	
-	border-bottom-right-radius: 10px;	
-	
 	margin: 15px auto;
 	padding: 10px 10px;
 	box-shadow: 0 15px 25px -18px;
@@ -219,7 +214,7 @@ p {
 
 /******************** CONTACT ********************/
 #contact {
-	background-color: #f6f9fa;
+	background-color: #36454F;
 	border-top: 1px solid #D8D8D8;
 	text-align: center;
 	padding: 30px 0 67px 0;
@@ -242,6 +237,7 @@ p {
 	line-height: 1.4em;
 	margin-top: 50px;
 	margin-bottom: 53px;
+	color: #F6F9FA;
 }
 
 #contact h4 {
@@ -249,8 +245,13 @@ p {
 	padding-top: 10px;
 }
 
+#contact h4, p {
+	color: #F6F9FA;
+}
+
 #contact span.glyphicon {
 	font-size: 25px;
+	color: #F6F9FA;
 }
 
 #contact a {
@@ -259,7 +260,7 @@ p {
 }
 
 #contact .email p a {
-	color: #333;
+	color: #F6F9FA;
 }
 
 #contact .email p a:hover {
@@ -276,7 +277,7 @@ p {
 }
 
 #contact-button a {
-	color: #f6f9fa;
+	color: #F6F9FA;
 }
 
 
@@ -294,13 +295,9 @@ footer {
 /******************** RESPONSIVE ********************/
 @media(min-width : 320px) {
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-		font-size: 15px;
+		font-size: 13px;
 		margin-top: 2px;
 	}	
-
-	a.navbar-brand {
-		margin-left: 18px;
-	}
 }
 
 @media(min-width:768px) {
