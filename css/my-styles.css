@@ -138,9 +138,16 @@ p {
 	line-height: 1.5em;
 }
 
-.about-icons {
-	font-size: 45px;
-	margin-top: 70px;
+span.fa-stack {
+	margin-top: 66px;
+}
+
+.fa-inverse {
+	color: #F6F9FA;
+}
+
+i.fa.fa-circle {
+	color: #333;
 }
 
 
