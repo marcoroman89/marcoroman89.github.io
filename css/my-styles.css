@@ -38,7 +38,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #f6f9fa;
+	color: #BDBDBD;
 	text-align: center;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -46,12 +46,12 @@ p {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #BDBDBD;
+	color: #f6f9fa;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
 	background: #2d3339;
-	color: #BDBDBD;
+	color: #f6f9fa;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
@@ -102,7 +102,7 @@ p {
 }
 
 .jumbotron p {
-	margin-top: 20px 0;
+	margin-top: 19px 0;
 	padding: 15px 5px;
 	color: rgba(242,242,242,0.8);
 }
@@ -113,7 +113,7 @@ p {
 	background-color: #f6f9fa;
 	border-bottom: 1px solid #D8D8D8;
 	text-align: center;
-	padding: 40px 0 80px 0;
+	padding: 40px 0 68px 0;
 	margin-top: -30px;
 }
 
@@ -138,16 +138,16 @@ p {
 
 .about-icons {
 	font-size: 45px;
-	margin-top: 60px;
+	margin-top: 70px;
 }
 
 
 /******************** SERVICES ********************/
 #services {
 	background-color: #F5F5F5;
-	text-align: center;
-	padding: 40px 0 80px 0;
 	border-bottom: 1px solid #D8D8D8;	
+	text-align: center;
+	padding: 40px 0 68px 0;
 }
 
 #services h1 {
@@ -176,16 +176,16 @@ p {
 	width: 140px;
 	height: 140px;
 	box-shadow: 0 15px 25px -18px;
-	margin-top: 50px;
+	margin-top: 74px;
 	margin-bottom: ;
 
 }
 
 /******************** WORK ********************/
 #work {
-	background-color: #f6f9fa;
+	background-color: #F5F5F5;
 	text-align: center;
-	padding: 40px 0 80px 0;
+	padding: 40px 0 71px 0;
 }
 
 #work h1 {
@@ -213,16 +213,16 @@ p {
 }
 
 .latest-images {
-	margin-top: 50px;
+	margin-top: 49px;
 }
 
 
 /******************** CONTACT ********************/
 #contact {
-	background-color: #F5F5F5;
+	background-color: #f6f9fa;
 	border-top: 1px solid #D8D8D8;
 	text-align: center;
-	padding: 29px 0 80px 0;
+	padding: 30px 0 67px 0;
 }
 
 #contact h1 {
@@ -240,7 +240,8 @@ p {
 
 #contact h3 {
 	line-height: 1.4em;
-	margin-top: 45px;
+	margin-top: 50px;
+	margin-bottom: 53px;
 }
 
 #contact h4 {
@@ -267,7 +268,7 @@ p {
 
 .email, .phone, .location {
 	padding: 15px 0;
-	margin-top: 55px;
+	margin-top: 46px;
 }
 
 #contact-button {
@@ -293,8 +294,13 @@ footer {
 /******************** RESPONSIVE ********************/
 @media(min-width : 320px) {
 	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-		font-size: 13px;
-		margin-top: 2px;	
+		font-size: 18px;
+		margin-top: 2px;
+	}	
+
+	a.navbar-brand {
+		margin-left: 18px;
+	}
 }
 
 @media(min-width:768px) {
