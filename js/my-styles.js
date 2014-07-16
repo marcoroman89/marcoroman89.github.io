@@ -9,7 +9,7 @@ $(".navbar-collapse ul li a[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(this.hash).offset().top -80
-     }, 1000, function(){
+     }, 900, function(){
 
        // when done, add hash to url
        // (default click behaviour)
@@ -29,7 +29,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(this.hash).offset().top -80
-     }, 1000, function(){
+     }, 900, function(){
 
        // when done, add hash to url
        // (default click behaviour)
@@ -49,7 +49,7 @@ $("a.btn[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(this.hash).offset().top -80
-     }, 1000, function(){
+     }, 900, function(){
 
        // when done, add hash to url
        // (default click behaviour)
