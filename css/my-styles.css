@@ -38,7 +38,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #A8A8A8;
+	color: #5B717F;
 	text-align: center;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -55,7 +55,7 @@ p {
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-	color: #f6f9fa;
+	color: #F6F9FA;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	font-size: 16px;
@@ -147,7 +147,7 @@ span.fa-stack {
 }
 
 i.fa.fa-circle {
-	color: #333;
+	color: #3B4B56;
 }
 
 
@@ -186,8 +186,6 @@ i.fa.fa-circle {
 	height: 140px;
 	box-shadow: 0 15px 25px -18px;
 	margin-top: 74px;
-	margin-bottom: ;
-
 }
 
 /******************** WORK ********************/
