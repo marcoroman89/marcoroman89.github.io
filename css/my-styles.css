@@ -7,6 +7,7 @@ body {
 
 h1 {
 	letter-spacing: 0.01em;
+	font-size: 32px;
 }
 
 
@@ -15,8 +16,7 @@ h1 {
 	font-size: 22px;
 	background-color: #E9594A;
 	border: 2px solid #F6F9FA;
-	padding: 10px 15px;
-	width: 70%;
+	padding: 10px 90px;
 }
 
 .btn-lg:hover {
@@ -104,7 +104,7 @@ h1 {
 	color: #3B4B56;
 }
 
-#about h4 {
+#about h5 {
 	line-height: 1.5em;
 	padding: 10px 45px;
 	color: #6E6E6E;
@@ -144,7 +144,7 @@ i.fa.fa-circle {
 	color: #3B4B56;
 }
 
-#services h4 {
+#services h5 {
 	line-height: 1.5em;
 	padding: 10px 45px;
 	color: #6E6E6E;
@@ -187,7 +187,6 @@ i.fa.fa-circle {
 /******************** CONTACT ********************/
 #contact {
 	background-color: #36454F;	
-	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
 	padding: 60px 0 57px 0;
 }
@@ -202,17 +201,13 @@ i.fa.fa-circle {
 	margin: 51px 0 54px 0;
 }
 
-#contact h4 {
-	font-weight: 700;
-}
-
 #contact p.line {
 	border-bottom: 2px solid #E9594A;
 	width: 80px;
 	margin: -10px auto 0 auto;
 }
 
-#contact h4, p {
+#contact h5, p {
 	color: #F6F9FA;
 }
 
