@@ -16,6 +16,13 @@ h5 {
 	font-size: 16px;
 }
 
+span.scroll a {
+	color: rgba(54,69,79,0.06);
+}
+
+span.scroll p a i{
+	margin: 5px 0 20px 0;
+}
 
 /******************** BUTTONS ********************/
 .btn-lg {
@@ -207,8 +214,7 @@ i.fa.fa-circle {
 #work {
 	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	/*padding: 60px 0 76px 0;*/
-	padding: 90px 0 106px 0;
+	padding: 60px 0 76px 0;
 }
 
 #work h1 {
@@ -264,9 +270,8 @@ i.fa.fa-circle {
 	color: #F6F9FA;
 }
 
-#contact a {
-	text-decoration: none;
-	color: #E9594A;
+#contact span.scroll a {
+	color: rgba(242,242,242,0.1);
 }
 
 #contact .email p a {
@@ -285,6 +290,7 @@ i.fa.fa-circle {
 #contact-button a {
 	color: #F6F9FA;
 }
+
 
 /******************** FOOTER ********************/
 footer {
