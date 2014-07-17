@@ -1,28 +1,22 @@
 /******************** GENERAL ********************/
-body { 
+body {
 	padding: 50px 0 20px 0;
 	font-family: 'Montserrat', sans-serif;
+	background-color: #F6F9FA;
 }
 
-.about, .latest-work, .contact, .services {
+h1 {
 	letter-spacing: 0.01em;
-}
-
-.glyphicon {
-	color: #2d3339;
-}
-
-p {
-	margin-top: 20px;
 }
 
 
 /******************** BUTTONS ********************/
 .btn-lg {
-	font-size: 24px;
+	font-size: 22px;
 	background-color: #E9594A;
 	border: 2px solid #F6F9FA;
 	padding: 10px 15px;
+	width: 50%;
 }
 
 .btn-lg:hover {
@@ -34,77 +28,61 @@ p {
 /******************** NAVIGATION ********************/
 .navbar-inverse {
 	background: #36454F;
-	padding: 17px 0;
+	padding: 19px 0 13px 0;
+	border-bottom: 1.5px solid rgba(246,249,250,0.2);
+}
+
+.navbar-inverse .navbar-collapse {
+	border: none;
+/*	box-shadow: none;*/
 }
 
 .navbar-inverse .navbar-nav>li>a {
 	color: #5B717F;
 	text-align: center;
-	font-size: 15px;
+	font-size: 14px;
 	text-transform: uppercase;
-	margin-top: 6px;
+	margin-top: 10px;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background: none;
 	color: #F6F9FA;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-	background: #36454F;
-	color: #F6F9FA;
-}
-
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
+.navbar-inverse .navbar-brand, .navbar-brand:hover {
 	color: #F6F9FA;
 	text-transform: uppercase;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.05em;
 	font-size: 16px;
 }
 
 .navbar-inverse .navbar-toggle {
 	border-color: #36454F;
-	margin-top: -2px;
+	margin-top: -6px;
 	color: #F6F9FA;
 }
 
-.navbar-inverse .navbar-brand {
-	margin-top: 5px;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-	background: #E6E6E6;
-}
-
-.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover {
-	background: #36454F;
-}
-
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #36454F;
-}
-
-.navbar-inverse .navbar-toggle:hover {
-	background: #36454F;
+	background: none;
 }
 
 
 /******************** JUMBOTRON ********************/
 .jumbotron {
 	background: url(../img/wood1.jpg);
-	background-repeat: inherit;
 	background-size: cover;
-	border-bottom: 1px solid #D8D8D8;
+	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 122px 0 93px 0;
-
+	padding: 84px 0 52px 0;
 }
 
 .jumbotron h1 {
-	color: #f6f9fa;
+	color: #F6F9FA;
 }
 
 .jumbotron p {
-	margin-top: 19px;
+	margin-top: 20px;
 	padding: 15px 5px;
 	color: rgba(242,242,242,0.8);
 }
@@ -112,30 +90,30 @@ p {
 
 /******************** ABOUT ********************/
 #about {
-	background-color: #F6F9FA;
-	border-bottom: 1px solid #D8D8D8;
+	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 40px 0 68px 0;
-	margin-top: -30px;
+	padding: 30px 0 58px 0;
 }
 
 #about h1 {
 	color: #E9594A;
 	text-transform: uppercase;
-	margin-top: 50px;
-	padding-bottom: 60px;
+}
 
+#about h2 {
+	color: #3B4B56;
+}
+
+#about h4 {
+	line-height: 1.5em;
+	padding: 10px 45px;
+	color: #6E6E6E;
 }
 
 #about p.line {
 	border-bottom: 2px solid #E9594A;
 	width: 80px;
-	margin: -70px auto 0 auto;
-}
-
-#about h4 {
-	padding: 10px 35px;
-	line-height: 1.5em;
+	margin: -10px auto 0 auto;
 }
 
 span.fa-stack {
@@ -150,100 +128,88 @@ i.fa.fa-circle {
 	color: #3B4B56;
 }
 
-
 /******************** SERVICES ********************/
 #services {
-	background-color: #F6F9FA;
-	border-bottom: 1px solid #D8D8D8;	
+	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 40px 0 68px 0;
+	padding: 60px 0 58px 0;
 }
 
 #services h1 {
 	color: #E9594A;
 	text-transform: uppercase;
-	margin-top: 50px;	
-	padding-bottom: 60px;
 }
 
 #services h2 {
-	margin-top: 50px;
+	color: #3B4B56;
 }
 
 #services h4 {
-	padding: 10px 35px;
 	line-height: 1.5em;
+	padding: 10px 45px;
+	color: #6E6E6E;
 }
 
 #services p.line {
 	border-bottom: 2px solid #E9594A;
 	width: 80px;
-	margin: -70px auto 0 auto;
+	margin: -10px auto 0 auto;
 }
-
 
 /******************** WORK ********************/
 #work {
-	background-color: #F6F9FA;
+	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 40px 0 71px 0;
+	padding: 60px 0 76px 0;
 }
 
 #work h1 {
 	color: #E9594A;
 	text-transform: uppercase;
-	margin-top: 50px;
-	padding-bottom: 60px;	
 }
 
 #work p.line {
 	border-bottom: 2px solid #E9594A;
 	width: 80px;
-	margin: -70px auto 0 auto;
+	margin: -10px auto 0 auto;
 }
 
 .img-responsive {
-	margin: 15px auto;
-	padding: 10px 10px;
+	margin: 10px auto;
+	padding: 10px;
 	box-shadow: 0 15px 25px -18px;
 }
 
 .latest-images {
-	margin-top: 49px;
+	margin-top: 53px;
 }
-
 
 /******************** CONTACT ********************/
 #contact {
-	background-color: #36454F;
-	border-top: 1px solid #D8D8D8;
+	background-color: #36454F;	
+	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 30px 0 67px 0;
+	padding: 60px 0 57px 0;
 }
 
 #contact h1 {
 	color: #E9594A;
 	text-transform: uppercase;
-	margin-top: 60px;
-	padding-bottom: 60px;	
+}
+
+#contact h3 {
+	color: #F6F9FA;
+	margin: 51px 0 54px 0;
+}
+
+#contact h4 {
+	font-weight: 700;
 }
 
 #contact p.line {
 	border-bottom: 2px solid #E9594A;
 	width: 80px;
-	margin: -70px auto 0 auto;
-}
-
-#contact h3 {
-	line-height: 1.4em;
-	margin-top: 50px;
-	margin-bottom: 53px;
-	color: #F6F9FA;
-}
-
-#contact h4 {
-	font-weight: 700;
-	padding-top: 10px;
+	margin: -10px auto 0 auto;
 }
 
 #contact h4, p {
@@ -270,21 +236,16 @@ i.fa.fa-circle {
 
 .email, .phone, .location {
 	padding: 15px 0;
-	margin-top: 46px;
-}
-
-#contact-button {
-	margin-top: 40px;
+	margin-top: 73px;
 }
 
 #contact-button a {
 	color: #F6F9FA;
 }
 
-
 /******************** FOOTER ********************/
 footer {
-	padding: 50px;
+	padding: 60px;
 	background-color: #E9594A;
 	color: #fff;
 	position: absolute;
@@ -292,36 +253,23 @@ footer {
 	text-align: center;
 }
 
+footer p {
+	margin-top: 19px;
+}
 
 /******************** RESPONSIVE ********************/
-@media(min-width:320px) {
-	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-		font-size: 15px;
-		margin-top: 2px;
-	}
-}
 
+/* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
-	.navbar-inverse .navbar-nav>li>a {
-		font-size: 13px;
-	}
 
-	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-		font-size: 16px;
-		margin-top: 6px;
-	}
 }
 
+/* Medium devices (desktops, 992px and up) */
 @media(min-width:992px) {
-	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-		font-size: 18px;
-		margin-top: 5px;
-	}
+
 }
 
+/* Large devices (large desktops, 1200px and up) */
 @media(min-width:1200px) {
-	.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover {
-		font-size: 20px;
-		margin-top: 1px;
-	}
+
 }
