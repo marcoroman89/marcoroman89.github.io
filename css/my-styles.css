@@ -53,7 +53,7 @@ h1 {
 	color: #F6F9FA;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -273,7 +273,7 @@ i.fa.fa-circle {
 }
 
 .email, .phone, .location {
-	padding: 15px 0;
+	padding: none;
 	margin-top: 73px;
 }
 
@@ -311,6 +311,11 @@ footer p {
 	.btn-lg {
 		padding: 10px 60px;
 	}
+
+	.email, .phone, .location {
+		padding: 15px 0;
+		margin-top: 73px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -327,6 +332,11 @@ footer p {
 	.btn-lg {
 		padding: 10px 70px;		
 	}
+	
+	.email, .phone, .location {
+		padding: 15px 0;
+		margin-top: 73px;
+	}	
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -343,4 +353,9 @@ footer p {
 	.btn-lg {
 		padding: 10px 80px;
 	}
+
+	.email, .phone, .location {
+		padding: 15px 0;
+		margin-top: 73px;
+	}	
 }
