@@ -22,7 +22,7 @@ h5 {
 }
 
 span.scroll a {
-	color: rgba(54,69,79,0.06);
+	color: #73879C;
 }
 
 span.scroll p a i{
@@ -32,27 +32,26 @@ span.scroll p a i{
 /******************** BUTTONS ********************/
 .btn-lg {
 	font-size: 22px;
-	background-color: #E9594A;
+	background-color: #0BAD8C;
 	border: 2px solid #F6F9FA;
-	padding: 10px 45px;
+	padding: 10px 40px;
 }
 
 .btn-lg:hover {
 	border: 2px solid #F6F9FA;
-	background-color: #DB5C51;
+	background-color: #10BC99;
 }
 
 
 /******************** NAVIGATION ********************/
 .navbar-inverse {
-	background: #36454F;
-	padding: 24px 0 18px 0;
+	background: #283645;
+	padding: 20px 0 23px 0;
 	border-bottom: 1.5px solid rgba(246,249,250,0.2);
 }
 
 .navbar-inverse .navbar-collapse {
 	border: none;
-/*	box-shadow: none;*/
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -73,7 +72,7 @@ span.scroll p a i{
 }
 
 .navbar-inverse .navbar-toggle {
-	border-color: #36454F;
+	border-color: #283645;
 	margin-top: -6px;
 	color: #F6F9FA;
 }
@@ -244,7 +243,7 @@ i.fa.fa-circle {
 
 /******************** CONTACT ********************/
 #contact {
-	background-color: #36454F;
+	background-color: #33475D;
 	text-align: center;
 	padding: 61px 0 57px 0;
 }
@@ -268,12 +267,12 @@ i.fa.fa-circle {
 
 #contact p {
 	font-size: 14px;
-	color: #F6F9FA;
+	color: #73879C;
 }
 
 #contact span.glyphicon {
 	font-size: 25px;
-	color: #F6F9FA;
+	color: #73879C;
 }
 
 #contact span.scroll a {
@@ -281,15 +280,15 @@ i.fa.fa-circle {
 }
 
 #contact .email p a {
-	color: #F6F9FA;
+	color: #73879C;
 }
 
 #contact h5 {
-	color: #F6F9FA;
+	color: #73879C;
 }
 
 #contact .email p a:hover {
-	color: #73879C;
+	color: #F6F9FA;
 	text-decoration: none;
 }
 
@@ -306,7 +305,7 @@ i.fa.fa-circle {
 /******************** FOOTER ********************/
 footer {
 	padding: 45px;
-	background-color: #E9594A;
+	background-color: #283645;
 	color: #fff;
 	position: absolute;
 	width: 100%;
@@ -339,11 +338,6 @@ footer p {
 		padding: 15px 0;
 		margin-top: 73px;
 	}
-
-	.jumbotron {
-	/*padding: 124px 0 92px 0;*/
-/*	padding: 151px 0 114px 0;
-	}*/
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -358,7 +352,7 @@ footer p {
 	}
 
 	.btn-lg {
-		padding: 10px 75px;		
+		padding: 10px 60px;		
 	}
 	
 	.email, .phone, .location {
@@ -379,7 +373,7 @@ footer p {
 	}
 
 	.btn-lg {
-		padding: 10px 85px;
+		padding: 10px 70px;
 	}
 
 	.email, .phone, .location {
