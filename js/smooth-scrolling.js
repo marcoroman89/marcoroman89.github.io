@@ -28,7 +28,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(this.hash).offset().top -10
+       scrollTop: $(this.hash).offset().top -1
      }, 900, function(){
 
        // when done, add hash to url
@@ -48,7 +48,7 @@ $("a.btn[href^='#']").on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(this.hash).offset().top -10
+       scrollTop: $(this.hash).offset().top -1
      }, 900, function(){
 
        // when done, add hash to url
@@ -68,7 +68,7 @@ $("span.scroll p a[href^='#']").on('click', function(e) {
 
    // animate
    $('html, body').animate({
-       scrollTop: $(this.hash).offset().top -10
+       scrollTop: $(this.hash).offset().top -1
      }, 900, function(){
 
        // when done, add hash to url
