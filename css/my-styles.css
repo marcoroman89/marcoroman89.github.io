@@ -169,7 +169,7 @@ span.scroll p a i{
 #about p.line {
 	border-bottom: 2px solid #3B4B56;
 	width: 80px;
-	margin: -10px auto 0 auto;
+	margin: -5px auto 0 auto;
 }
 
 span.fa-stack {
@@ -204,7 +204,7 @@ i.fa.fa-circle {
 #services p.line {
 	border-bottom: 2px solid #3B4B56;
 	width: 80px;
-	margin: -10px auto 0 auto;
+	margin: -5px auto 0 auto;
 }
 
 /******************** WORK ********************/
@@ -221,17 +221,24 @@ i.fa.fa-circle {
 #work p.line {
 	border-bottom: 2px solid #3B4B56;
 	width: 80px;
-	margin: -10px auto 0 auto;
+	margin: -5px auto 0 auto;
 }
 
-.img-responsive {
-	margin: 10px 0;
-	padding: 10px 0;
-	box-shadow: 0 15px 25px -18px;
-}
-
-.latest-images {
+.gallery {
 	margin-top: 52px;
+}
+
+.gallery-inner {
+	position: relative;
+	width: 25%;
+	float: left;
+	border-right: 1px solid #F6F9FA;
+	border-bottom: 1px solid #F6F9FA;
+}
+
+.gallery-inner img {
+	margin: 0;
+	padding: 0;
 }
 
 /******************** CONTACT ********************/
@@ -253,9 +260,9 @@ i.fa.fa-circle {
 }
 
 #contact p.line {
-	border-bottom: 2px solid rgba(246,249,250,0.1);
+	border-bottom: 2px solid #73879C;
 	width: 80px;
-	margin: -10px auto 0 auto;
+	margin: -5px auto 0 auto;
 }
 
 #contact p {
@@ -265,11 +272,11 @@ i.fa.fa-circle {
 
 #contact span.glyphicon {
 	font-size: 25px;
-	color: rgba(246,249,250,0.3);
+	color: #73879C;
 }
 
 #contact span.scroll a {
-	color: rgba(242,242,242,0.1);
+	color: #73879C;
 }
 
 #contact .email p a {
