@@ -48,7 +48,7 @@ i.fa.fa-circle {
 	font-size: 20px;
 	background-color: #FE6960;
 	border: 2px solid #F6F9FA;
-	padding: 10px 95px;
+	padding: 10px 75px;
 }
 
 .btn-lg:hover {
@@ -72,7 +72,7 @@ i.fa.fa-circle {
 .navbar-inverse .navbar-nav>li>a {
 	color: #5B717F;
 	text-align: center;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 300;
 	text-transform: uppercase;
 	margin-top: 10px;
@@ -85,7 +85,7 @@ i.fa.fa-circle {
 	color: #F6F9FA;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
-	font-size: 17px;
+	font-size: 15px;
 }
 
 .navbar-inverse .navbar-toggle {
