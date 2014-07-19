@@ -1,6 +1,5 @@
 /******************** GENERAL ********************/
 body {
-
 	font-family: 'Lato', sans-serif;
 	background-color: #F6F9FA;
 }
@@ -23,8 +22,13 @@ span.scroll a {
 	color: #73879C;
 }
 
-span.scroll p a i{
-	margin: 5px 0 20px 0;
+span.scroll p {
+	margin: 0;
+}
+
+span.scroll p a i {
+	margin: 0;
+	padding: 0;
 }
 
 span.fa-stack {
@@ -41,10 +45,10 @@ i.fa.fa-circle {
 
 /******************** BUTTONS ********************/
 .btn-lg {
-	font-size: 22px;
+	font-size: 20px;
 	background-color: #FE6960;
 	border: 2px solid #F6F9FA;
-	padding: 10px 40px;
+	padding: 10px 95px;
 }
 
 .btn-lg:hover {
@@ -68,7 +72,7 @@ i.fa.fa-circle {
 .navbar-inverse .navbar-nav>li>a {
 	color: #5B717F;
 	text-align: center;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 300;
 	text-transform: uppercase;
 	margin-top: 10px;
@@ -81,12 +85,12 @@ i.fa.fa-circle {
 	color: #F6F9FA;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .navbar-inverse .navbar-toggle {
 	border-color: #283645;
-	margin-top: -6px;
+	margin-top: -5px;
 	color: #F6F9FA;
 }
 
@@ -147,8 +151,9 @@ i.fa.fa-circle {
 	background-size: cover;
 	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 92px 0 100px 0;
+	padding: 52px 0 60px 0;
 	margin: 0;
+
 }
 
 .jumbotron h1 {
@@ -156,8 +161,7 @@ i.fa.fa-circle {
 }
 
 .jumbotron p {
-	margin-top: 20px;
-	padding: 15px 5px;
+	padding: 15px 0 4px 0;
 	color: rgba(242,242,242,0.8);
 }
 
@@ -166,23 +170,23 @@ i.fa.fa-circle {
 #about {
 	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 60px 0 46px 0;
+	padding: 60px 0;
 }
 
 #about h1 {
 	text-transform: uppercase;
-	margin-top: 42px;
+	margin: 30px 0;
 }
 
 #about h5 {
 	line-height: 1.5em;
-	padding: 10px 45px;
+	padding: 10px 25px;
 }
 
 #about p.line {
 	border-bottom: 2px solid #3B4B56;
 	width: 70px;
-	margin: -5px auto 40px auto;
+	margin: -28px auto 20px auto;
 }
 
 
@@ -190,44 +194,46 @@ i.fa.fa-circle {
 #services {
 	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 60px 0 46px 0;
+	padding: 60px 0;
 }
 
 #services h1 {
 	text-transform: uppercase;
-	margin-top: 42px;	
+	margin: 30px 0;
 }
 
 #services h5 {
 	line-height: 1.5em;
-	padding: 10px 45px;
+	padding: 10px 25px;
 }
 
 #services p.line {
 	border-bottom: 2px solid #3B4B56;
 	width: 70px;
-	margin: -5px auto 40px auto;
+	margin: -28px auto 20px auto;
 }
+
 
 /******************** WORK ********************/
 #work {
+	border-bottom: 1.5px solid #D8D8D8;
 	text-align: center;
-	padding: 60px 0 62px 0;
+	padding: 60px 0;
 }
 
 #work h1 {
 	text-transform: uppercase;
-	margin-top: 42px;	
+	margin: 30px 0;
 }
 
 #work p.line {
 	border-bottom: 2px solid #3B4B56;
 	width: 70px;
-	margin: -5px auto 0 auto;
+	margin: -28px auto 20px auto;
 }
 
 .gallery {
-	margin-top: 52px;
+	margin-top: 50px;
 }
 
 .gallery-inner {
@@ -245,15 +251,15 @@ i.fa.fa-circle {
 
 /******************** CONTACT ********************/
 #contact {
-	background-color: #33475D;
 	text-align: center;
-	padding: 61px 0 57px 0;
+	padding: 60px 0;	
+	background-color: #33475D;
 }
 
 #contact h1 {
 	color: #F6F9FA;
 	text-transform: uppercase;
-	margin-top: 41px;		
+	margin: 30px 0;
 }
 
 #contact h3 {
@@ -264,7 +270,7 @@ i.fa.fa-circle {
 #contact p.line {
 	border-bottom: 2px solid #73879C;
 	width: 70px;
-	margin: -5px auto 0 auto;
+	margin: -28px auto 20px auto;	
 }
 
 #contact p {
@@ -279,11 +285,15 @@ i.fa.fa-circle {
 
 #contact span.scroll a {
 	color: #73879C;
-	margin-top: 40px;
+}
+
+#contact span.scroll p {
+	margin: 0;
 }
 
 #contact span.scroll p a i{
-	margin-top: 40px;
+	margin-top: 50px;
+	padding: 0;
 }
 
 #contact .email p a {
@@ -301,15 +311,16 @@ i.fa.fa-circle {
 
 .email, .phone, .location {
 	padding: none;
-	margin-top: 73px;
+	margin-top: 50px;
 }
 
 
 /******************** FOOTER ********************/
 footer {
-	padding: 45px;
+	padding: 40px 0;
+	margin: 0;
 	background-color: #283645;
-	color: #fff;
+	color: #F6F9FA;
 	position: absolute;
 	width: 100%;
 	text-align: center;
