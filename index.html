@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet" />
     <link href="css/my-styles.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -133,34 +134,73 @@
           </span>       
           <h1>Latest Work</h1>
           <p class="line"></p>
-          <div class="gallery">
-            <div class="gallery-inner">
-                <img src="img/gallery2/1.jpg" alt="work-thumbnail" class="img-responsive">
+          <ul id="gallery">
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-3.jpg" data-lightbox="latest-work" data-title="My caption 1">
+                  <img src="img/demopage/image-3.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
             </div>
-            <div class="gallery-inner">
-                <img src="img/gallery2/2.jpg" alt="work-thumbnail" class="img-responsive">
+
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-4.jpg" data-lightbox="latest-work" data-title="My caption 2">
+                  <img src="img/demopage/image-4.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
             </div>
-            <div class="gallery-inner">
-                <img src="img/gallery2/1.jpg" alt="work-thumbnail" class="img-responsive">
-            </div> 
-            <div class="gallery-inner">
-                <img src="img/gallery2/2.jpg" alt="work-thumbnail" class="img-responsive">
+
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-3.jpg" data-lightbox="latest-work" data-title="My caption 3">
+                  <img src="img/demopage/image-3.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
             </div>
-            <div class="gallery-inner">
-                <img src="img/gallery2/1.jpg" alt="work-thumbnail" class="img-responsive">
+
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-4.jpg" data-lightbox="latest-work" data-title="My caption 4">
+                  <img src="img/demopage/image-4.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
             </div>
-            <div class="gallery-inner">
-                <img src="img/gallery2/2.jpg" alt="work-thumbnail" class="img-responsive">
+
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-3.jpg" data-lightbox="latest-work" data-title="My caption 5">
+                  <img src="img/demopage/image-3.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
             </div>
-            <div class="gallery-inner">
-                <img src="img/gallery2/1.jpg" alt="work-thumbnail" class="img-responsive">
-            </div> 
-            <div class="gallery-inner">
-                <img src="img/gallery2/2.jpg" alt="work-thumbnail" class="img-responsive">
-            </div>                                                                         
-          </div><!-- End Gallery -->           
-        </div><!--End Row -->  
-      </div> <!-- End Container -->                                    
+
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-4.jpg" data-lightbox="latest-work" data-title="My caption 6">
+                  <img src="img/demopage/image-4.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
+            </div>
+
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-3.jpg" data-lightbox="latest-work" data-title="My caption 7">
+                  <img src="img/demopage/image-3.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
+            </div>
+
+            <div id="gallery-inner">
+              <li>
+                <a href="img/demopage/image-4.jpg" data-lightbox="latest-work" data-title="My caption 8">
+                  <img src="img/demopage/image-4.jpg" alt="thumbnail" class="img-responsive">
+                </a>  
+              </li>
+            </div>                                                                                      
+          </ul><!-- End Gallery -->           
+        </div>
+      </div>                                  
     </div><!-- End Latest Work -->
 
     <!-- Contact -->
@@ -218,6 +258,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smooth-scrolling.js"></script>
+    <script src="js/lightbox.min.js"></script>
   
   </body>
 </html>
